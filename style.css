@@ -1,0 +1,68 @@
+#stayGrid > .col{
+    display:flex;
+    flex-direction: column;
+    height:200px;
+}
+
+.container-fluid{
+ padding-right: 0% 15%;
+padding-bottom:5%;
+}
+
+
+
+
+
+#gridView > .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    gap: 10px 20px;
+}
+
+#columnView > .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+   border:2px solid black;
+   padding-top:10px;
+}
+
+#columnView> .col > img{
+ height: 200px;
+ width:300px;
+}
+
+#columnview div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid black;
+    width:65%;
+
+
+}
+
+
+
+body{
+    background-color: rgb(215, 215, 215);
+}
+
+.container-fluid{
+    padding-bottom:5%;
+}
+
+h1{
+    font-size: 20px;
+}
+
+#stayColumn  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:60%;
+   
+}
